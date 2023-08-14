@@ -56,7 +56,7 @@
  .container {
    margin-left: auto;
    margin-right: auto;
-   max-width: 312px;
+   max-width: 1440px;
    width: 100%;
    padding-right: 15px;
    padding-left: 15px;
@@ -138,5 +138,47 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+    /* Section WhatAreWeDoing, 
+    Section Team*/
+
+.team-undertitle {
+  color: var(--color-blue);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; 
+  text-align: left;
+
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+    padding: 96px 0;
+}
+
+.team-card {
+  width: 100%;
+    max-width: 312px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: var(--white-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member {
+    padding: 32px 16px;
+}
+
+.tablet-container {
+  display: flex;
+  gap: 24px;
+}
+
 
 /* Footer */
